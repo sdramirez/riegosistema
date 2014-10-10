@@ -1,0 +1,27 @@
+{
+  "name": "sistema-riego",
+  "version": "0.0.0",
+  "authors": [
+    "Saul Ramirez <sramirez@arkusnexus.com>"
+  ],
+  "description": "Sistema de Riego",
+  "moduleType": [
+    "node"
+  ],
+  "license": "Copyright",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "bootstrap": "~3.1.1",
+    "angular-ui-router": "~0.2.10",
+    "angular-bootstrap": "~0.10.0",
+    "momentjs": "~2.5.1",
+    "underscore": "~1.6.0"
+  }
+}
