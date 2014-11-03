@@ -1,15 +1,2 @@
 body{
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		color-stop(0, #02BD24),
-		color-stop(0.4, #18DB3C),
-		color-stop(0.6, #24E046)
-	);
-	background-image: -o-linear-gradient(bottom, #02BD24 0%, #18DB3C 40%, #24E046 60%);
-	background-image: -moz-linear-gradient(bottom, #02BD24 0%, #18DB3C 40%, #24E046 60%);
-	background-image: -webkit-linear-gradient(bottom, #02BD24 0%, #18DB3C 40%, #24E046 60%);
-	background-image: -ms-linear-gradient(bottom, #02BD24 0%, #18DB3C 40%, #24E046 60%);
-	background-image: linear-gradient(to bottom, #02BD24 0%, #18DB3C 40%, #24E046 60%);
 }
