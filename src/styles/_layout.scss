@@ -1,2 +1,38 @@
-body{
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 14pt;
+	color: #4F4949;
+	.row
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.img
+	{
+		width: 100%;
+	}
+	.menuApp
+	{
+		padding-top: 50px;
+		
+	}
+}
+
+@media (max-width: 768px){
+	body
+	{
+		.container
+		{
+			padding: 0;
+		}
+		.img--Logo
+		{
+			width: 300px;
+		}
+		.menuApp
+		{
+			padding-top: 10px;
+		}
+	}
 }

@@ -10,13 +10,13 @@ riegoApp.config(function($stateProvider,$urlRouterProvider) {
     url: "/Home",
     templateUrl: 'views/Home.html',
     controller: 'HomeCtrl'
-  })
-  .state("alumno", {
+  });
+  /*.state("alumno", {
     url: "/Alumno",
     templateUrl: 'views/Alumno.html',
     controller: 'AlumnoCtrl'
-  })
-  .state('docente',{
+  })*/
+  /*.state('docente',{
       url: '/Docente',
       controller: 'DocenteCtrl',
       views:
@@ -30,5 +30,5 @@ riegoApp.config(function($stateProvider,$urlRouterProvider) {
               controller: 'DocenteCtrl'
           }
       }
-  });
+  });*/
 });
