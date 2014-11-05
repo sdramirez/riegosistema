@@ -4,31 +4,26 @@ var riegoApp = angular.module("riegoApp",[
   'riegoControllers'
 ]);
 riegoApp.config(function($stateProvider,$urlRouterProvider) {
-  $urlRouterProvider.otherwise('/Home');
+  $urlRouterProvider.otherwise('/Inicio');
   $stateProvider
   .state("home", {
-    url: "/Home",
+    url: "/Inicio",
     templateUrl: 'views/Home.html',
     controller: 'HomeCtrl'
+  })
+  .state("control", {
+    url: "/Control",
+    templateUrl: 'views/Control.html',
+    controller: 'ControlCtrl'
+  })
+  .state("mapa", {
+    url: "/Mapa",
+    templateUrl: 'views/Mapa.html',
+    controller: 'MapaCtrl'
+  })
+  .state("estadisticas", {
+    url: "/Estadisticas",
+    templateUrl: 'views/Estadisticas.html',
+    controller: 'EstadisticasCtrl'
   });
-  /*.state("alumno", {
-    url: "/Alumno",
-    templateUrl: 'views/Alumno.html',
-    controller: 'AlumnoCtrl'
-  })*/
-  /*.state('docente',{
-      url: '/Docente',
-      controller: 'DocenteCtrl',
-      views:
-      {
-          'menuApp':{
-              templateUrl: 'views/Docente/DocenteMenu.html',
-              controller: 'DocenteCtrl'
-          },
-          '':{
-              templateUrl: 'views/Docente/DocenteMain.html',
-              controller: 'DocenteCtrl'
-          }
-      }
-  });*/
 });

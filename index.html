@@ -9,21 +9,26 @@
 </head>
 <body  ng-app="riegoApp">
   <div class="container" ng-controller="IndexCtrl">
-    <div class="row">
+    <div class="row headerApp">
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 text-center">
-        <img class="img img--Logo" src="images/logo.png">
+        <a href="#/Inicio"><img class="img img--Logo" src="images/logo.png"></a>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 text-center menuApp">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><a href="">Control</a></div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><a href="">Mapa</a></div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><a href="">Estadisticas</a></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contentMenuApp">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 elementMenuApp"><a href="#/Control">Control</a></div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 elementMenuApp"><a href="#/Mapa">Mapa</a></div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 elementMenuApp"><a href="#/Estadisticas">Estadisticas</a></div>
         </div> 
       </div>
     </div>
-    <div class="row">
+    <div class="row bodyApp">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ui-view=""></div>
     </div>
+    <div class="row footerApp">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <p class="text-right">Derechos Resevados 2014 &#169; Riego Inteligente</p>
+    </div>
+  </div>
   </div>
   <script src="scripts/angular.js"></script>
   <script src="scripts/angular-ui-router.js"></script>

@@ -12,13 +12,67 @@ body
 	{
 		width: 100%;
 	}
-	.menuApp
+	.headerApp
 	{
-		padding-top: 50px;
-		
+		margin: 10px 0 25px;
+		.menuApp
+		{
+			padding-top: 55px;
+			.contentMenuApp
+			{
+				.elementMenuApp
+				{
+					a
+					{
+						color: #7EB900;
+						&:hover
+						{
+							color: #6B8F00;
+							text-decoration: none;
+						}
+					}
+				}
+				.elementMenuApp--activo
+				{
+					color: #AAA !important;
+				}
+			}
+		}
+	}
+	.footerApp
+	{
+		margin: 20px 0 25px;
+	}
+	.bodyApp
+	{
+		min-height: 400px;
 	}
 }
 
+@media (max-width: 1200px){
+	body
+	{
+		.headerApp
+		{
+			.menuApp
+			{
+				padding-top: 68px;
+			}
+		}
+	}
+}
+@media (max-width: 992px){
+	body
+	{
+		.headerApp
+		{
+			.menuApp
+			{
+				padding-top: 46px;
+			}
+		}
+	}
+}
 @media (max-width: 768px){
 	body
 	{
@@ -28,11 +82,37 @@ body
 		}
 		.img--Logo
 		{
-			width: 300px;
+			width: 290px;
 		}
-		.menuApp
+		.headerApp
 		{
-			padding-top: 10px;
+			.menuApp
+			{
+				padding: 10px 0;
+				.contentMenuApp
+				{
+					padding: 0;
+					.elementMenuApp
+					{
+						background: #6B8F00;
+						padding: 15px 0;
+						border-top: 2px solid #FFF;
+						cursor: pointer;
+						a
+						{
+							color: #FFF;
+							&:hover
+							{
+								color: #FFF;
+							}
+						}
+					}
+				}
+			}
+		}
+		.footerApp
+		{
+			font-size: 10pt;
 		}
 	}
 }
