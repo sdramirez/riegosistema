@@ -1,7 +1,7 @@
 body
 {
 	font-family:Verdana, Geneva, sans-serif;
-	font-size: 14pt;
+	font-size: 13pt;
 	color: #4F4949;
 	.row
 	{
@@ -32,10 +32,6 @@ body
 						}
 					}
 				}
-				.elementMenuApp--activo
-				{
-					color: #AAA !important;
-				}
 			}
 		}
 	}
@@ -46,6 +42,24 @@ body
 	.bodyApp
 	{
 		min-height: 400px;
+		padding: 20px 0;
+		margin: 5px 0;
+		border-top: 2px solid #6B8F00;
+		border-bottom: 2px solid #6B8F00;
+	}
+	.menuActivo
+	{
+		color: #4F4949 !important;
+		font-weight: bold;
+	}
+	.controlScreen
+	{
+		margin: 20px 0;
+		padding: 10px 0;
+		div
+		{
+			margin-bottom: 10px;
+		}
 	}
 }
 
@@ -76,6 +90,7 @@ body
 @media (max-width: 768px){
 	body
 	{
+		font-size: 12pt;
 		.container
 		{
 			padding: 0;
@@ -94,13 +109,13 @@ body
 					padding: 0;
 					.elementMenuApp
 					{
-						background: #6B8F00;
-						padding: 15px 0;
-						border-top: 2px solid #FFF;
-						cursor: pointer;
 						a
 						{
+							background: #6B8F00;
+							padding: 15px 0;
+							border-top: 2px solid #FFF;
 							color: #FFF;
+							display: block;
 							&:hover
 							{
 								color: #FFF;
@@ -113,6 +128,11 @@ body
 		.footerApp
 		{
 			font-size: 10pt;
+		}
+		.menuActivo
+		{
+			background: #4F4949 !important;
+			color: #FFF !important;
 		}
 	}
 }
