@@ -1,7 +1,7 @@
 body
 {
 	font-family:Verdana, Geneva, sans-serif;
-	font-size: 14pt;
+	font-size: 13pt;
 	color: #4F4949;
 	.row
 	{
@@ -15,29 +15,6 @@ body
 	.headerApp
 	{
 		margin: 10px 0 25px;
-		.menuApp
-		{
-			padding-top: 55px;
-			.contentMenuApp
-			{
-				.elementMenuApp
-				{
-					a
-					{
-						color: #7EB900;
-						&:hover
-						{
-							color: #6B8F00;
-							text-decoration: none;
-						}
-					}
-				}
-				.elementMenuApp--activo
-				{
-					color: #AAA !important;
-				}
-			}
-		}
 	}
 	.footerApp
 	{
@@ -46,32 +23,18 @@ body
 	.bodyApp
 	{
 		min-height: 400px;
+		padding: 20px 0;
+		margin: 5px 0;
+		border-top: 2px solid #6B8F00;
+		border-bottom: 2px solid #6B8F00;
 	}
 }
 
 @media (max-width: 1200px){
-	body
-	{
-		.headerApp
-		{
-			.menuApp
-			{
-				padding-top: 68px;
-			}
-		}
-	}
+	
 }
 @media (max-width: 992px){
-	body
-	{
-		.headerApp
-		{
-			.menuApp
-			{
-				padding-top: 46px;
-			}
-		}
-	}
+	
 }
 @media (max-width: 768px){
 	body
@@ -79,40 +42,7 @@ body
 		.container
 		{
 			padding: 0;
-		}
-		.img--Logo
-		{
-			width: 290px;
-		}
-		.headerApp
-		{
-			.menuApp
-			{
-				padding: 10px 0;
-				.contentMenuApp
-				{
-					padding: 0;
-					.elementMenuApp
-					{
-						background: #6B8F00;
-						padding: 15px 0;
-						border-top: 2px solid #FFF;
-						cursor: pointer;
-						a
-						{
-							color: #FFF;
-							&:hover
-							{
-								color: #FFF;
-							}
-						}
-					}
-				}
-			}
-		}
-		.footerApp
-		{
-			font-size: 10pt;
+			margin: 0;
 		}
 	}
 }
