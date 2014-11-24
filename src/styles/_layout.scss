@@ -15,28 +15,7 @@ body
 	.headerApp
 	{
 		margin: 10px 0 25px;
-<<<<<<< HEAD
-=======
-		.menuApp
-		{
-			padding-top: 55px;
-			.contentMenuApp
-			{
-				.elementMenuApp
-				{
-					a
-					{
-						color: #7EB900;
-						&:hover
-						{
-							color: #6B8F00;
-							text-decoration: none;
-						}
-					}
-				}
-			}
-		}
->>>>>>> 020ba92a61b41026e2691e8db9623b3691b08b47
+
 	}
 	.footerApp
 	{
@@ -49,23 +28,6 @@ body
 		margin: 5px 0;
 		border-top: 2px solid #6B8F00;
 		border-bottom: 2px solid #6B8F00;
-<<<<<<< HEAD
-=======
-	}
-	.menuActivo
-	{
-		color: #4F4949 !important;
-		font-weight: bold;
-	}
-	.controlScreen
-	{
-		margin: 20px 0;
-		padding: 10px 0;
-		div
-		{
-			margin-bottom: 10px;
-		}
->>>>>>> 020ba92a61b41026e2691e8db9623b3691b08b47
 	}
 }
 
@@ -78,53 +40,10 @@ body
 @media (max-width: 768px){
 	body
 	{
-		font-size: 12pt;
 		.container
 		{
 			padding: 0;
-<<<<<<< HEAD
 			margin: 0;
-=======
-		}
-		.img--Logo
-		{
-			width: 290px;
-		}
-		.headerApp
-		{
-			.menuApp
-			{
-				padding: 10px 0;
-				.contentMenuApp
-				{
-					padding: 0;
-					.elementMenuApp
-					{
-						a
-						{
-							background: #6B8F00;
-							padding: 15px 0;
-							border-top: 2px solid #FFF;
-							color: #FFF;
-							display: block;
-							&:hover
-							{
-								color: #FFF;
-							}
-						}
-					}
-				}
-			}
-		}
-		.footerApp
-		{
-			font-size: 10pt;
->>>>>>> 020ba92a61b41026e2691e8db9623b3691b08b47
-		}
-		.menuActivo
-		{
-			background: #4F4949 !important;
-			color: #FFF !important;
 		}
 	}
 }
